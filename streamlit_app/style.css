@@ -1,0 +1,116 @@
+h1,
+h2,
+h3,
+h4 {
+  color: #000000;
+}
+
+code {
+  color: #1ec3bc;
+}
+
+#MainMenu {
+  display: none;
+}
+
+div[data-testid="stDecoration"] {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+/* Radio buttons */
+
+.st-cc {
+  color: black;
+  font-weight: 500;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] > div {
+  background-color: #a56b6b;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+section[data-testid="stSidebar"] button[title="View fullscreen"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] button[kind="icon"] {
+  display: none;
+}
+
+section[data-testid="stSidebar"] .st-bk {
+  background-color: white;
+}
+/*
+section[data-testid="stSidebar"] .st-c0 {
+  background-color: black;
+}*/
+
+section[data-testid="stSidebar"] hr {
+  margin-top: 30px;
+  border-color: white;
+  width: 50px;
+}
+
+section[data-testid="stSidebar"] h2 {
+  color: white;
+}
+
+/* Images */
+
+button[title="View fullscreen"] {
+  display: none;
+}
+
+/* hr */
+
+hr {
+  width: 200px;
+  border-width: 5px;
+  border-color: red;
+  margin-top: 0px;
+}
+
+/* First Page */
+
+section[tabindex="0"] .block-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  background-color: #f0e5e5;
+}
+.card{
+  border:solid; 
+  width:25%;
+  margin-right:20px;
+  background-color: white;
+}
+.card-header img{
+  width: 100px;
+  margin: 20px;
+}
+.u-info p{
+  padding: 0 10px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.logo a img{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
