@@ -9,13 +9,16 @@ The goal of this project is to to identify the different types of blood cells us
 Developing a tool capable of analyzing cells from blood smears could facilitate the diagnosis of certain pathologies, but could also be used for research purposes.
 <br/>
 
-<img src="image/blood_nn.png" align="left" width="400px" style="padding-right:10px;"> 
-<img src="image/cells.png" align="right" width="400px">
+
+  Models             |  Blood cells
+:-------------------------:|:-------------------------:
+![](image/blood_nn.png)  |  ![](image/cells.png)
+
 <!--- image source : ACEVEDO, A., S. ALFÉREZ, A. MERINO, L. PUIGVÍ, AND J. RODELLAR. (2019): “Recognition of 
 peripheral blood cell images using convolutional neural networks,” Computer methods 
 and programs in biomedicine, 180, 105020. -->
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
+<br/>
 
 This project was developed by the following team :
 
@@ -24,9 +27,9 @@ This project was developed by the following team :
 - Joseph LIEBER ([GitHub](https://github.com/josephlieber75/) / [LinkedIn](https://www.linkedin.com/in/joseph-lieber-687878a6/))
 - Kipédène COULIBALY ([GitHub](https://github.com/KipedeneCoulibaly/) / [LinkedIn](https://www.linkedin.com/in/kip%C3%A9d%C3%A8necoulibaly/))
 
-You can browse and run the [notebooks](./notebooks). 
+You can browse and run the the modeling report and EDA [notebooks](./notebooks). 
 
-You will need to install the dependencies (in a dedicated environment) :
+You will need to install the dependencies (in a dedicated environment) to be able to run the application locally :
 
 ```
 pip install -r requirements.txt
